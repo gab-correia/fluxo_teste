@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=America/Sao_Paulo
+      - WEBHOOK_TUNNEL_URL=http://localhost:5678
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+    networks:
+      - automacao_network
+
+  flowise:
+    image: flowiseai/flowise:latest
+    container_name: flowise
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    volumes:
+      - ./flowise_data:/root/.flowise
+    networks:
+      - automacao_network
+
+networks:
+  automacao_network:
+    driver: bridge
