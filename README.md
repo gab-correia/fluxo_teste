@@ -6,5 +6,5 @@ Este projeto contém um ambiente automatizado utilizando **n8n** e **Flowise** v
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/meu-projeto-automacao.git
-   cd meu-projeto-automacao
+   git clone https://github.com/Correia1500/fluxo_teste.git
+   

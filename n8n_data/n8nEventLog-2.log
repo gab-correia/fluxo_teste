@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"fbc4a485-3f56-46a4-a1f9-370c3b2b17d7","ts":"2025-02-27T12:26:07.824-05:00","eventName":"n8n.audit.workflow.created","message":"n8n.audit.workflow.created","payload":{"userId":"ae35a7c4-2de1-46ec-aa59-939a7775a023","_email":"gcorreia590@gmail.com","_firstName":"Gabriel","_lastName":"Costa","globalRole":"global:owner","workflowId":"lggBbb0Sx6CBtSJe","workflowName":"final"}}
+{"__type":"$$EventMessageConfirm","confirm":"fbc4a485-3f56-46a4-a1f9-370c3b2b17d7","ts":"2025-02-27T12:26:07.824-05:00","source":{"id":"0","name":"eventBus"}}

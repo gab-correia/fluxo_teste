@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"fdc9b9cb-a112-4039-b957-8acffb1535f3","ts":"2025-03-07T08:35:46.037-05:00","eventName":"n8n.audit.user.login.success","message":"n8n.audit.user.login.success","payload":{"userId":"ae35a7c4-2de1-46ec-aa59-939a7775a023","_email":"gcorreia590@gmail.com","_firstName":"Gabriel","_lastName":"Costa","globalRole":"global:owner","authenticationMethod":"email"}}
+{"__type":"$$EventMessageConfirm","confirm":"fdc9b9cb-a112-4039-b957-8acffb1535f3","ts":"2025-03-07T08:35:46.037-05:00","source":{"id":"0","name":"eventBus"}}
